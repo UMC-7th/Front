@@ -33,7 +33,10 @@
    - 담당자(Assignees)를 명시할 것
    - Task list 기능을 적극 활용할 것
    - 기능 관련 Issue라면 GitHub Project와 PR과 연동하여 진행상황 공유
-  >> 자세한 내용은 템플릿 참고
+  > 자세한 내용은 템플릿 참고
+
+  ![main](./images/issue.template.png)
+
 ---
 
 4. **PR Convention 결정 후 템플릿 작성**
@@ -48,7 +51,8 @@
    > **자주 커밋하고 PR은 300자를 넘지 않도록 주의**  
    > (짧은 간격으로 자주 PR)
 
->> 자세한 내용은 템플릿 참고
+ > 자세한 내용은 템플릿 참고
+ ![main](./images/pr.template.png)
 
 
 5. **Commit Convention**
