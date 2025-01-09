@@ -33,6 +33,7 @@
    - 담당자(Assignees)를 명시할 것
    - Task list 기능을 적극 활용할 것
    - 기능 관련 Issue라면 GitHub Project와 PR과 연동하여 진행상황 공유
+   ### issue template > branch > pr template > merge 식으로 issue 관리가능능
   > 자세한 내용은 템플릿 참고
 
   ![Issue Template](./issue.template.png)
@@ -75,6 +76,14 @@
 팀에서 통일된 코드 스타일을 따르기 위해 아래 규칙을 준수합니다.
 - 메서드 , 변수명 통합
 - solid pattern 결정 후 구조화
+
+### xml 작성시
+- id 설정
+### kotlin 작성시
+- findViewID 사용시 -> id 통합, 초기화시 변수명 확인
+- viewBinding 사용시 -> id 통합
+
+>> 추가사항 계속 작성
 ---
 
 
