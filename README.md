@@ -2,7 +2,7 @@
 
 ## <데모데이 - 팀 이거먹자>
 
-### GitHub Convention
+### 👨‍💻GitHub Convention
 
 1. **앱 서비스 기능 확인 및 프로젝트 사용 라이브러리 + 스택 결정**
    - android, node.js, firebase → 추가 Tool & Framework 협의 후 결정
@@ -13,9 +13,6 @@
      1) 사람별로 Branch 개설 후 기능별로 구현  
      2) 아래와 같은 `feat` 별 개설 전략 활용  
 
-     [브랜치 전략 참고](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-github-flow-git-flow-%F0%9F%93%88-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
-
-     ![Branch Strategy](https://prod-files-secure.s3.us-west-2.amazonaws.com/b89d707a-2ba4-4daa-9d94-eda7a218c766/e4a18899-5806-45ca-be25-1448b096c81a/image.png)
 
      ```
      
@@ -43,17 +40,31 @@
    ### [Pull Request 작성 가이드](https://puleugo.tistory.com/165#Pull-Request)
    - 제목은 '[#기능 번호] 변경 사항' 구조로 작성할 것
    - Issue와 연동할 것
+      - 제목: **[Feat]** 핵심적인 부분만 간략하게 작성
+   - 내용: 간결하게 리스트 방식으로 정리
+   - 라벨: `FE`, `BE`, `기능추가`, `리팩토링`, `레이아웃`, `에러`
+
 
    > **자주 커밋하고 PR은 300자를 넘지 않도록 주의**  
    > (짧은 간격으로 자주 PR)
 
-   - 제목: **[Feat]** 핵심적인 부분만 간략하게 작성
-   - 내용: 간결하게 리스트 방식으로 정리
-   - 라벨: `FE`, `BE`, `기능추가`, `리팩토링`, `레이아웃`, `에러`
 >> 자세한 내용은 템플릿 참고
 
 
 5. **Commit Convention**
+
+제목에는 본 커밋의 종류를 알려줍니다.
+
+**제목 타입**: <type>
+
+- feat: 기능 (feature)
+- fix: 버그 수정
+- docs: 문서 작업 (documentation)
+- style: 포맷팅, 세미콜론 누락 등.
+- refactor: 리팩터링 : 결과의 변경 없이 코드의 구조를 재조정
+- test: 테스트
+- chore: 관리(maintain), 핵심 내용은 아닌 잡일 등*// chore: [하기 싫은 따분한 일, 정기적으로 하는 일](https://en.dict.naver.com/#/search?query=chore)이라는 의미를 가지고 있습니다.*
+
 6. **Code Convention**
 팀에서 통일된 코드 스타일을 따르기 위해 아래 규칙을 준수합니다.
 - 메서드 , 변수명 통합
