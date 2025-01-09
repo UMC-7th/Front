@@ -35,7 +35,7 @@
    - 기능 관련 Issue라면 GitHub Project와 PR과 연동하여 진행상황 공유
   > 자세한 내용은 템플릿 참고
 
-  ![main](./images/issue.template.png)
+  ![main](Front/images/issue.template.png)
 
 ---
 
@@ -52,7 +52,7 @@
    > (짧은 간격으로 자주 PR)
 
  > 자세한 내용은 템플릿 참고
- ![main](./images/pr.template.png)
+ ![main](Front/images/pr.template.png)
 
 
 5. **Commit Convention**
