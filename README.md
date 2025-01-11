@@ -4,8 +4,14 @@
 
 ### 👨‍💻GitHub Convention
 
-1. **앱 서비스 기능 확인 및 프로젝트 사용 라이브러리 + 스택 결정**
-   - android, node.js, firebase → 추가 Tool & Framework 협의 후 결정
+### **🤖** 안드로이드
+| **Category** | **TechStack** |
+| — | — |
+| Network | Retrofit, OkHttp, Gson |
+| Service | Service |
+| Asynchronous | Coroutines |
+| Jetpack | DataBinding, Navigation |
+| Image | Glide |
 
 2. **Branch 전략**
    - 맡은 기능 또는 맡은 사람별로 Branch 결정
@@ -24,7 +30,7 @@
      ```
 
    - **Team 이거먹자 Branch 예시**  
-     `main > develop > feat > individual` 형태로 작업을 진행(협의 후 결정)
+     `main > develop > feat(issue)`
 
 ---
 
@@ -33,7 +39,7 @@
    - 담당자(Assignees)를 명시할 것
    - Task list 기능을 적극 활용할 것
    - 기능 관련 Issue라면 GitHub Project와 PR과 연동하여 진행상황 공유
-   ### issue template > branch > pr template > merge 식으로 issue 관리가능능
+   ### issue template > branch > pr template > merge 식으로 issue 관리가능
   > 자세한 내용은 템플릿 참고
 
   ![Issue Template](./issue.template.png)
@@ -74,6 +80,7 @@
 
 6. **Code Convention**
 팀에서 통일된 코드 스타일을 따르기 위해 아래 규칙을 준수합니다.
+- 파일 소스명, package 통합
 - 메서드 , 변수명 통합
 - solid pattern 결정 후 구조화
 
@@ -84,6 +91,14 @@
 - viewBinding 사용시 -> id 통합
 
 >> 추가사항 계속 작성
+7. Android Studio, targetSDK, minSDK version 통일 
+- Android Studio → LadyBug 2.1
+- targetSdk→ 34
+- midSdk → 28
+- jvmTarget = 1.8
+
+8. IDE -> emulator or device 결정
+- device 기준 pixel 고정 후 작업
 ---
 
 
