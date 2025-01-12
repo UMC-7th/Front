@@ -6,6 +6,18 @@
 
 ### **🤖** 안드로이드
 | **Category** | **TechStack** |
+| --- | --- |
+| Language | Kotlin |
+| Architecture | Repository Pattern, MVVM |
+| DI | Hilt |
+| Network | Retrofit |
+| Asynchronous | Coroutines, Flow |
+| Jetpack | DataBinding, Navigation, DataStore |
+| Image | Glide |
+
+
+### **🤖** 안드로이드
+| **Category** | **TechStack** |
 | — | — |
 | Network | Retrofit, OkHttp, Gson |
 | Service | Service |
