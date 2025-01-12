@@ -5,13 +5,12 @@
 ### 👨‍💻GitHub Convention
 
 ### **🤖** 안드로이드
-| **Category** | **TechStack** |
-| — | — |
-| Network | Retrofit, OkHttp, Gson |
-| Service | Service |
-| Asynchronous | Coroutines |
-| Jetpack | DataBinding, Navigation |
-| Image | Glide |
+**Category**  **TechStack** 
+- Network : Retrofit, OkHttp, Gson 
+- Service : Service 
+- Asynchronous : Coroutines 
+- Jetpack : DataBinding, Navigation 
+- Image : Glide 
 
 2. **Branch 전략**
    - 맡은 기능 또는 맡은 사람별로 Branch 결정
@@ -42,6 +41,7 @@
    ### issue template > branch > pr template > merge 식으로 issue 관리가능
   > 자세한 내용은 템플릿 참고
 
+  ## Issue Template 작성완료료
   ![Issue Template](./issue.template.png)
 
 
@@ -58,7 +58,7 @@
 
    > **자주 커밋하고 PR은 300자를 넘지 않도록 주의**  
    > (짧은 간격으로 자주 PR)
-
+  ###  PR Template 작성완료료
  > 자세한 내용은 템플릿 참고
  ![PR Template](./pr.template.png)
 
@@ -85,12 +85,14 @@
 - solid pattern 결정 후 구조화
 
 ### xml 작성시
-- id 설정
+- id 설정(중복확인)
+- 통합된 source 파일사용 
 ### kotlin 작성시
 - findViewID 사용시 -> id 통합, 초기화시 변수명 확인
 - viewBinding 사용시 -> id 통합
 
->> 추가사항 계속 작성
+>> 추가사항 계속 작성 요망
+
 7. Android Studio, targetSDK, minSDK version 통일 
 - Android Studio → LadyBug 2.1
 - targetSdk→ 34
