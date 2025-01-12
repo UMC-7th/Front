@@ -6,6 +6,8 @@
 
 ### **🤖** 안드로이드
 **Category**  **TechStack** 
+- Tool : Android Studio
+- Language : kotlin
 - Network : Retrofit, OkHttp, Gson 
 - Service : Service 
 - Asynchronous : Coroutines 
@@ -41,7 +43,7 @@
    ### issue template > branch > pr template > merge 식으로 issue 관리가능
   > 자세한 내용은 템플릿 참고
 
-  ## Issue Template 작성완료료
+  ## Issue Template 작성완료
   ![Issue Template](./issue.template.png)
 
 
@@ -58,7 +60,7 @@
 
    > **자주 커밋하고 PR은 300자를 넘지 않도록 주의**  
    > (짧은 간격으로 자주 PR)
-  ###  PR Template 작성완료료
+  ###  PR Template 작성완료
  > 자세한 내용은 템플릿 참고
  ![PR Template](./pr.template.png)
 
