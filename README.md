@@ -8,22 +8,12 @@
 | **Category** | **TechStack** |
 | --- | --- |
 | Language | Kotlin |
-| Architecture | Repository Pattern, MVVM |
-| DI | Hilt |
-| Network | Retrofit |
-| Asynchronous | Coroutines, Flow |
-| Jetpack | DataBinding, Navigation, DataStore |
-| Image | Glide |
-
-
-### **🤖** 안드로이드
-| **Category** | **TechStack** |
-| — | — |
-| Network | Retrofit, OkHttp, Gson |
-| Service | Service |
+| Network | Retrofit, okhttp |
 | Asynchronous | Coroutines |
 | Jetpack | DataBinding, Navigation |
 | Image | Glide |
+
+
 
 2. **Branch 전략**
    - 맡은 기능 또는 맡은 사람별로 Branch 결정
